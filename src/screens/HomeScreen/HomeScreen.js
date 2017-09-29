@@ -3,7 +3,7 @@ import React, { Component } from "react";
 // React-Native
 import { Image, StyleSheet, Text, View } from "react-native";
 // Components
-import NavBar from "./components/NavBar";
+import NavBar from "./../../components/NavBar";
 
 const styles = StyleSheet.create({
   container: {

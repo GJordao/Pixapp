@@ -22,10 +22,10 @@ const styles = StyleSheet.create({
     width: 70
   },
   logContainer: {
-      alignItems: "center",
-      flex: 1,
-      justifyContent: "center",
-      marginLeft: -50
+    alignItems: "center",
+    flex: 1,
+    justifyContent: "center",
+    marginLeft: -50
   }
 });
 
@@ -38,13 +38,13 @@ export default (NavBar = ({ buttonOnPress, ...props }) => {
         }}
       >
         <Image
-          source={require("./../../../images/android-drawer.png")}
+          source={require("./../images/android-drawer.png")}
           style={styles.burger}
         />
       </TouchableOpacity>
-      <View style={styles.logContainer} >
+      <View style={styles.logContainer}>
         <Image
-          source={require("./../../../images/PIXapp_font.png")}
+          source={require("./../images/PIXapp_font.png")}
           style={styles.logo}
         />
       </View>

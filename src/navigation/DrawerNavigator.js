@@ -4,11 +4,13 @@ import React from "react";
 import { DrawerNavigator } from "react-navigation";
 // Routes
 import HomeNavigator from "./HomeNavigator";
+import CalendarScreen from "./../screens/CalendarScreen/CalendarScreen";
 // Components
 import Drawer from "./components/Drawer";
 
 const routes = {
-  Home: { screen: HomeNavigator }
+  Home: { screen: HomeNavigator },
+  Calendar: { screen: CalendarScreen }
 };
 
 const navigationOptions = {

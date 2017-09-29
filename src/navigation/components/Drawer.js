@@ -61,6 +61,8 @@ export default class Drawer extends Component {
                 onPress={() => {
                   if (this.props.activeItemKey !== item.routeName) {
                     this.props.navigation.navigate(item.routeName);
+                  } else {
+                    this.props.navigation.navigate("DrawerClose");
                   }
                 }}
               >
