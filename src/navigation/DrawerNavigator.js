@@ -6,8 +6,9 @@ import { DrawerNavigator } from "react-navigation";
 import HomeNavigator from "./HomeNavigator";
 import CalendarScreen from "./../screens/CalendarScreen/CalendarScreen";
 import FavoriteScreen from "./../screens/FavoritesScreen/FavoritesScreen";
-import WalletScreen from "./../screens/WalletScreen/WalletScreen";
+import WalletNavigator from "./WalletNavigator";
 import ProfileScreen from "./../screens/ProfileScreen/ProfileScreen";
+import QRScanner from "./../screens/QRScanner/QRScanner";
 // Components
 import Drawer from "./components/Drawer";
 
@@ -16,7 +17,8 @@ const routes = {
     Calendar: { screen: CalendarScreen },
     Favorites: { screen: FavoriteScreen },
     Profile: { screen: ProfileScreen },
-    Wallet: { screen: WalletScreen }
+    Wallet: { screen: WalletNavigator },
+    "QR Scanner": { screen: QRScanner }
 };
 
 const navigationOptions = {

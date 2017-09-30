@@ -145,8 +145,11 @@ export default class WalletScreen extends Component {
         </View>
 
         <View>
-          <TouchableOpacity>
-            <Text style = {styles.button}>Invest</Text>
+          <TouchableOpacity onPress={() => {this.props.navigation.navigate("Users")}} >
+            <Text style = {styles.button}>Trade Exp</Text>
+         </TouchableOpacity>
+         <TouchableOpacity onPress={() => {this.props.navigation.navigate("Projects")}} >
+            <Text style = {styles.button}>Backup a project</Text>
          </TouchableOpacity>
         </View>
       </ScrollView>
